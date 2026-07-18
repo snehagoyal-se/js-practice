@@ -54,3 +54,23 @@ console.log(typeof id) //symbol
 
 //Stack (Primitve), Heap (Non-Primitive)
 
+let ytName = "sneha"
+
+let anotherName = ytName
+anotherName = "chai aur code"
+console.log(anotherName);
+console.log(ytName)
+//The output indicates that another name ke andar yt name ki copy di hai na ki oioginal value
+
+let user1 = {
+    email : "user@google.com",
+    upi : "user@pyl"
+}
+
+let user2 = user1
+
+//The above is the example of call by reference 
+
+user2.email = "sneha@google.com"
+console.log(user1.email)
+console.log(user2.email)
