@@ -46,3 +46,11 @@ console.log(typeof myObj) //Object
 console.log(typeof myfunction) //Function
 console.log(typeof id) //symbol
 //Type of null is object
+
+
+//******************************************
+
+//Stack and Heap Memory
+
+//Stack (Primitve), Heap (Non-Primitive)
+
